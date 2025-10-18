@@ -176,7 +176,7 @@ Both DKIM and DMARC were set to none, meaning they were likely not setup.
 
 # Lab Answers
 1)   What is the status of SPF, what does it mean, and why did it occur?
-Answer: Status of SPF: softfail – an IP that is not authorized to send mail will softfail and be marked as SPAM. This occurred because 183.56.179.169 (sender IP) is not authorized to send mail on behalf of the sasktel[.]net domain.
+Answer: Status of SPF: softfail, an IP that is not authorized to send mail will softfail and be marked as SPAM. This occurred because 183.56.179.169 (sender IP) is not authorized to send mail on behalf of the sasktel[.]net domain.
 
 <img width="518" height="132" alt="Capture d'écran 2025-08-28 165548" src="https://github.com/user-attachments/assets/22331000-ebce-4fb1-9f68-4f77f9e6b3b0" />
 
